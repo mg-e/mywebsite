@@ -191,7 +191,7 @@
 
   .nav-link:hover {
     position: relative;
-    color: #6fffe9;
+    color: #82caff;
   }
 
   .nav-link:hover::after {
@@ -259,7 +259,7 @@
 }
 
 .link-mail:hover {
-    background: #6fffe9;
+    background: #82caff;
 }
 
 /* ABOUT */
@@ -292,24 +292,26 @@
 /* WORK EXPERIENCE  */
 .experience-div {
     display: flex;
-    row-gap: 2.5rem;
+    row-gap: .5rem;
+    column-gap: 1rem;
     flex-flow: row wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     text-align: center;
 }
 
-.exp-text {
-    text-align: center;
-}
 
 .work__img {
     box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
     border-radius: .5rem;
     overflow: hidden;
+
 }
 
 .work__img img {
     transition: 1s;
+    width: 200px;
+    height: 200px;
+    justify-content: center;
 }
 
 .work__img img:hover {
@@ -331,7 +333,7 @@
 }
 
 .link-resume:hover {
-    background-color: #6fffe9;
+    background-color: #82caff;
 }
 
 /* EDUCATION */
@@ -406,25 +408,6 @@
     z-index: var(--z-back);
 }
 
-.skills-data {
-    width: 95%;
-}
-
-.skills-html {
-    width: 85%;
-}
-.skills-css {
-    width: 80%;
-}
-
-.skills-cloud {
-    width: 75%;
-}
-
-.skills-python {
-    width: 75%;
-}
-
 .skills-pic {
     display: flex;
     flex-flow: row wrap;
@@ -482,7 +465,7 @@
 }
 
 .contact-social-icon:hover {
-    color: #6fffe9;
+    color: #82caff;
 }
 
 
